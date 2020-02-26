@@ -275,7 +275,7 @@ section
 	height: 65px;
 	background: transparent;
 	text-align: center;
-	border: solid 2px #ad8023;
+	border: solid 2px #04a9eb;
 	overflow: hidden;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -298,7 +298,7 @@ section
 	transform-origin: center center;
 	width: 130%;
 	height: 320%;
-	background: #ad8023;
+	background: #04a9eb;
 	content: '';
 	z-index: 0;
 	-webkit-transition: all 600ms ease;
@@ -315,7 +315,7 @@ section
 	bottom: -15px;
 	width: 30px;
 	height: 30px;
-	background: #ad8023;
+	background: #04a9eb;
 	content: '';
 	transform: rotate(-45deg);
 }
@@ -343,7 +343,7 @@ section
 }
 .button:hover a
 {
-	color: #ad8023;
+	color: #04a9eb;
 }
 .button_2
 {
@@ -351,7 +351,7 @@ section
 	height: 65px;
 	background: transparent;
 	text-align: center;
-	border: solid 2px #ad8023;
+	border: solid 2px #04a9eb;
 	overflow: hidden;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -378,7 +378,7 @@ section
 }
 .button_2:hover
 {
-	background: #ad8023;
+	background: #04a9eb;
 }
 .section_subtitle
 {
@@ -407,7 +407,7 @@ section
 	height: 96px;
 	background: #414141;
 	z-index: 100;
-	border-bottom: solid 2px #ad8023;
+	border-bottom: solid 2px #04a9eb;
 }
 .header_wrap
 {
@@ -447,13 +447,13 @@ section
 {
 	font-size: 14px;
 	font-weight: 700;
-	color: black;
+	color: white;
 	text-transform: uppercase;
 }
 .main_nav ul li a:hover,
 .main_nav ul li.active a
 {
-	color: #ad8023;
+	color: #04a9eb;
 }
 .header_social
 {
@@ -494,7 +494,7 @@ section
 }
 .social ul li a:hover i
 {
-	color: #ad8023;
+	color: #04a9eb;
 }
 .fixed_header
 {
@@ -504,7 +504,7 @@ section
 	width: 100%;
 	height: 70px;
 	background: #414141;
-	border-bottom: solid 2px #ad8023;
+	border-bottom: solid 2px #04a9eb;
 	z-index: 100;
 	-webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
@@ -534,7 +534,7 @@ section
 }
 .hamburger:hover i
 {
-	color: #ad8023;
+	color: #04a9eb;
 }
 
 /*********************************
@@ -593,7 +593,7 @@ section
 }
 .menu_close:hover
 {
-	color: #ad8023;
+	color: #04a9eb;
 }
 .menu_nav ul li:not(:last-of-type)
 {
@@ -609,7 +609,7 @@ section
 }
 .menu_nav ul li a:hover
 {
-	color: #ad8023;
+	color: #04a9eb;
 }
 .menu_social
 {
@@ -739,11 +739,11 @@ section
 }
 .home_slider .owl-dots .owl-dot:not(.active):hover span::after
 {
-	color: #ad8023;
+	color: #04a9eb;
 }
 .home_slider .owl-dots .owl-dot.active
 {
-	background: #ad8023;
+	background: #04a9eb;
 	width: 44px;
 	height: 44px;
 	margin-right: 6px;
@@ -825,7 +825,7 @@ section
 }
 .intro_box:first-child
 {
-	background: #ad8023;
+	background: #04a9eb;
 }
 .intro_box:nth-child(2)
 {
@@ -833,7 +833,7 @@ section
 }
 .intro_box:nth-child(3)
 {
-	background: #ad8023;
+	background: #04a9eb;
 }
 .intro_box_icon
 {
@@ -942,7 +942,7 @@ section
 }
 .cta .section_title h1
 {
-	color: #ad8023;
+	color: #04a9eb;
 }
 .cta_list
 {
@@ -1033,7 +1033,7 @@ section
 	left: 0;
 	width: 100%;
 	height: 100%;
-	border: solid 3px #ad8023;
+	border: solid 3px #04a9eb;
 	content: '';
 	border-radius: 50%;
 	opacity: 0;
@@ -1049,7 +1049,7 @@ section
 }
 .classes_slide_wrap:hover > div
 {
-	background: #ad8023;
+	background: #04a9eb;
 }
 .classes_title h3
 {
@@ -1155,7 +1155,7 @@ section
 .pricing_box_alt .pricing_title_box::after,
 .pricing_box_alt .pricing_title_box::before
 {
-	background: #ad8023;
+	background: #04a9eb;
 }
 .pricing_title_box > div
 {
@@ -1243,7 +1243,7 @@ section
 
 .footer
 {
-	background: #ad8023;
+	background: #04a9eb;
 }
 .footer_content
 {
