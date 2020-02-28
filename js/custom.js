@@ -228,7 +228,7 @@ $(document).ready(function()
 				autoplay:false,
 				nav:false,
 				dots:false,
-				smartSpeed:1200,
+				smartSpeed:1500,
 				margin:30,
 				responsive:
 				{
