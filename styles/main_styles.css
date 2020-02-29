@@ -837,12 +837,8 @@ section
 }
 .intro_box_icon
 {
-	width: 41px;
-	height: 41px;
-}
-.intro_box_icon img
-{
-	max-height: 100%;
+	font-size: 50px;
+	color: black;
 }
 .intro_box_title
 {
