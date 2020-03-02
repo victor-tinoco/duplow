@@ -1345,6 +1345,10 @@ section
 	animation: none;
 }
 
+.pulse-button, .pulse-button:visited, .pulse-button:link, .pulse-button:visited, .pulse-button:focus {
+	outline: none;
+}
+
 .pulse-button i {
 	color: #ffffff;
     font-size: 25px;
