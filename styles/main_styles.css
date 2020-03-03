@@ -15,7 +15,7 @@
 8. Quote
 9. CTA
 10. Classes
-11. Pricing
+11. gallery
 12. Footer
 13. WhatsApp Caller Icon
 
@@ -945,6 +945,10 @@ section
 	margin-top: 49px;
 	margin-left: -3px;
 }
+.cta_list i
+{
+	color: #04a9eb;
+}
 .cta_list ul li:not(:last-of-type)
 {
 	margin-bottom: 22px;
@@ -1069,169 +1073,18 @@ section
 }
 
 /*********************************
-11. Pricing
+11. Gallery
 *********************************/
 
-.pricing
+.gallery
 {
-	padding-top: 101px;
-	padding-bottom: 100px;
+	padding: 0 0 100px 0
 }
-.pricing .section_title h1
+.gallery .section_title h1
 {
-	color: #ffffff;
+	color: #414141;
 }
-.pricing_slider_container
-{
-	margin-top: 90px;
-}
-.pricing_box
-{
-	background: #ffffff;
-}
-.pricing_box_alt
-{
-	background: #190a49;
-	border: none;
-}
-.pricing_title_box
-{
-	width: 100%;
-	height: 202px;
-	overflow: hidden;
-}
-.pricing_title_box::before
-{
-	display: block;
-	position: absolute;
-	bottom: 0;
-	right: 50%;
-	width: 100%;
-	height: 120%;
-	background: #190a49;
-	content: '';
-	z-index: 0;
-	-webkit-transform-origin: bottom right;
-	transform-origin: bottom right;
-	-webkit-transform: rotate(22.5deg);
-	-moz-transform: rotate(22.5deg);
-	-ms-transform: rotate(22.5deg);
-	-o-transform: rotate(22.5deg);
-	transform: rotate(22.5deg);
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
-.pricing_title_box::after
-{
-	display: block;
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	width: 100%;
-	height: 120%;
-	background: #190a49;
-	content: '';
-	z-index: 0;
-	-webkit-transform-origin: bottom left;
-	transform-origin: bottom left;
-	-webkit-transform: rotate(-22.5deg);
-	-moz-transform: rotate(-22.5deg);
-	-ms-transform: rotate(-22.5deg);
-	-o-transform: rotate(-22.5deg);
-	transform: rotate(-22.5deg);
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
-.pricing_box_alt .pricing_title_box::after,
-.pricing_box_alt .pricing_title_box::before
-{
-	background: #04a9eb;
-}
-.pricing_title_box > div
-{
-	z-index: 1;
-}
-.pricing_name
-{
-	font-size: 14px;
-	font-weight: 400;
-	color: #ffffff;
-	text-transform: uppercase;
-	margin-top: 49px;
-	line-height: 1.2;
-}
-.pricing_price
-{
-	font-size: 48px;
-	font-weight: 400;
-	color: #ffffff;
-	margin-top: 14px;
-	line-height: 1.2;
-}
-.pricing_price span
-{
-	vertical-align: super;
-	font-size: 24px;
-	padding-left: 8px;
-}
-.pricing_per
-{
-	font-size: 14px;
-	font-weight: 400;
-	color: #ffffff;
-	margin-top: 10px;
-}
-.pricing_content
-{
-	padding-top: 52px;
-	padding-bottom: 46px;
-}
-.pricing_list ul li
-{
-	font-size: 14px;
-	font-weight: 400;
-	color: #838383;
-}
-.pricing_list ul li:not(:last-of-type)
-{
-	margin-bottom: 15px;
-}
-.pricing_info
-{
-	margin-top: 35px;
-	width: 19px;
-	height: 19px;
-	background: #ffc016;
-	border-radius: 50%;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-}
-.pricing_info a
-{
-	display: block;
-	position: relative;
-	height: 100%;
-	font-size: 14px;
-	font-weight: 400;
-	color: #ffffff;
-	list-style-position: 19px;
-}
-.pricing_button
-{
-	margin-top: 37px;
-}
-.pricing_box .button,
-.pricing_box .button_2
-{
-	width: 165px;
-}
+
 
 /*********************************
 12. Footer
