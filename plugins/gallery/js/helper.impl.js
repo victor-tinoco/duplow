@@ -1,7 +1,7 @@
 $(() => {
     const galleryContainer = $(".gamma-gallery")
     const list = [
-        new Picture('Honda Civic', 'Civic', 'civic.jpg', 768, 1024),
+        new Picture('Limpeza Técnica Detalhada', 'Limpeza', 'antes-depois-01.jpg', 1280, 1280),
         new Picture('Outra', 'other', '3.jpg', 1800, 1350),
         new Picture('Honda Civic', 'Civic', 'civic.jpg', 768, 1024),
         new Picture('Outra', 'other', '3.jpg', 1800, 1350)
