@@ -571,7 +571,6 @@
 <script src="plugins/gallery/js/jquerypp.custom.js"></script>
 <script src="plugins/gallery/js/gamma.js"></script>
 <script type="text/javascript">
-	
 	$(function() {
 		var GammaSettings = {
 				viewport : [ {
@@ -598,16 +597,16 @@
 		var page = 0,
 			items = ['<li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/gallery/xxxlarge/3.jpg" data-min-width="1300"></div><div data-src="images/gallery/xxlarge/3.jpg" data-min-width="1000"></div><div data-src="images/gallery/xlarge/3.jpg" data-min-width="700"></div><div data-src="images/gallery/large/3.jpg" data-min-width="300"></div><div data-src="images/gallery/medium/3.jpg" data-min-width="200"></div><div data-src="images/gallery/small/3.jpg" data-min-width="140"></div><div data-src="images/gallery/xsmall/3.jpg"></div><noscript><img src="images/gallery/xsmall/3.jpg" alt="img03"/></noscript></div></li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/gallery/xxxlarge/3.jpg" data-min-width="1300"></div><div data-src="images/gallery/xxlarge/3.jpg" data-min-width="1000"></div><div data-src="images/gallery/xlarge/3.jpg" data-min-width="700"></div><div data-src="images/gallery/large/3.jpg" data-min-width="300"></div><div data-src="images/gallery/medium/3.jpg" data-min-width="200"></div><div data-src="images/gallery/small/3.jpg" data-min-width="140"></div><div data-src="images/gallery/xsmall/3.jpg"></div><noscript><img src="images/gallery/xsmall/3.jpg" alt="img03"/></noscript></div></li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/gallery/xxxlarge/3.jpg" data-min-width="1300"></div><div data-src="images/gallery/xxlarge/3.jpg" data-min-width="1000"></div><div data-src="images/gallery/xlarge/3.jpg" data-min-width="700"></div><div data-src="images/gallery/large/3.jpg" data-min-width="300"></div><div data-src="images/gallery/medium/3.jpg" data-min-width="200"></div><div data-src="images/gallery/small/3.jpg" data-min-width="140"></div><div data-src="images/gallery/xsmall/3.jpg"></div><noscript><img src="images/gallery/xsmall/3.jpg" alt="img03"/></noscript></div></li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/gallery/xxxlarge/3.jpg" data-min-width="1300"></div><div data-src="images/gallery/xxlarge/3.jpg" data-min-width="1000"></div><div data-src="images/gallery/xlarge/3.jpg" data-min-width="700"></div><div data-src="images/gallery/large/3.jpg" data-min-width="300"></div><div data-src="images/gallery/medium/3.jpg" data-min-width="200"></div><div data-src="images/gallery/small/3.jpg" data-min-width="140"></div><div data-src="images/gallery/xsmall/3.jpg"></div><noscript><img src="images/gallery/xsmall/3.jpg" alt="img03"/></noscript></div></li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/gallery/xxxlarge/3.jpg" data-min-width="1300"></div><div data-src="images/gallery/xxlarge/3.jpg" data-min-width="1000"></div><div data-src="images/gallery/xlarge/3.jpg" data-min-width="700"></div><div data-src="images/gallery/large/3.jpg" data-min-width="300"></div><div data-src="images/gallery/medium/3.jpg" data-min-width="200"></div><div data-src="images/gallery/small/3.jpg" data-min-width="140"></div><div data-src="images/gallery/xsmall/3.jpg"></div><noscript><img src="images/gallery/xsmall/3.jpg" alt="img03"/></noscript></div></li>']
 		function fncallback() {
-			$( '#loadmore' ).show().on( 'click', function() {
-				++page;
-				var newitems = items[page-1]
-				if( page <= 1 ) {
-					Gamma.add($(newitems));
-				}
-				if( page === 1 ) {
-					$( this ).remove();
-				}
-			} );
+			// $( '#loadmore' ).show().on( 'click', function() {
+			// 	++page;
+			// 	var newitems = items[page-1]
+			// 	if( page <= 1 ) {
+			// 		Gamma.add($(newitems));
+			// 	}
+			// 	if( page === 1 ) {
+			// 		$( this ).remove();
+			// 	}
+			// } );
 		}
 	});
 </script>	

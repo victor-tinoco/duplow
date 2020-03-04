@@ -48,10 +48,10 @@ $(() => {
         new Picture('Revitalização de Farol', 'revitalizacao-farol-02.jpg', 1280, 1280),
         new Picture('Revitalização de Farol', 'revitalizacao-farol-03.jpg', 436, 436),
         new Picture('Revitalização de Lanterna', 'revitalizacao-lanterna-01.jpg', 497, 497),
-        new Picture('Revitalização dos plásticos traseiros', 'revitalizacao-plasticos.jpg', 470, 470),
+        new Picture('Revitalização dos plásticos traseiros', 'revitalizacao-plasticos.jpg', 470, 470)
     ]
 
-    fillGallery(galleryContainer, list)
+    galleryContainer.html(parseToHtml(list));
 })
 
 function Picture(title, src, maxWidth, maxHeight) {
@@ -61,7 +61,7 @@ function Picture(title, src, maxWidth, maxHeight) {
     this.maxHeight = maxHeight;
 }
 
-function fillGallery(container, list) {
+function parseToHtml(list) {
     var txt = ''
     list.forEach(item => {
         txt += '<li>' +
@@ -80,5 +80,5 @@ function fillGallery(container, list) {
         '</li>'
     });
 
-    container.html(txt);
+    return txt
 }
