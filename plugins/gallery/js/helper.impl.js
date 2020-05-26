@@ -1,6 +1,19 @@
 $(() => {
     const galleryContainer = $(".gamma-gallery")
     const list = [
+        new Picture('', 'polimento-03.jpeg', 1280, 959),
+        new Picture('', 'polimento-04.jpeg', 1280, 959),
+        new Picture('Serviços', 'servicos.jpeg', 778, 1280),
+        new Picture('Polimento técnico', 'polimento-tecnico.jpeg', 1280, 640),
+        new Picture('Limpeza e higienização dos bancos de couro', 'limpeza-higienizacao-banco.jpeg', 1280, 641),
+        new Picture('Polimento técnico', 'antes-depois-12.jpeg', 1280, 640),
+        new Picture('Revitalização de farol', 'revitalizacao-farol-04.jpeg', 1280, 640),
+        new Picture('', 'audi.jpeg', 1280, 960),
+        new Picture('', 'roda.jpeg', 960, 1280),
+        new Picture('', 'bmw-preta.jpeg', 1280, 960),
+        new Picture('', 'civic-preto-1.jpeg', 960, 720),
+        new Picture('', 'civic-preto-2.jpeg', 960, 720),
+        
         new Picture('', 'bmw-branca.jpg', 1280, 994),
         new Picture('Lavagem detalhada', 'lavagem-detalhada.jpg', 768, 1024),
         new Picture('Limpeza Técnica Detalhada', 'antes-depois-01.jpg', 1280, 1280),
@@ -44,7 +57,6 @@ $(() => {
         new Picture('', 'resultados-02.jpg', 768, 1024),
         new Picture('', 'resultados-03.jpg', 768, 1024),
         new Picture('Revitalização de Farol', 'revitalizacao-farol-01.jpg', 376, 376),
-        new Picture('Serviços', 'servicos.jpg', 960, 1280),
         new Picture('Revitalização de Farol', 'revitalizacao-farol-02.jpg', 1280, 1280),
         new Picture('Revitalização de Farol', 'revitalizacao-farol-03.jpg', 436, 436),
         new Picture('Revitalização de Lanterna', 'revitalizacao-lanterna-01.jpg', 497, 497),
