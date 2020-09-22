@@ -1,6 +1,22 @@
 $(() => {
     const galleryContainer = $(".gamma-gallery")
     const list = [
+        new Picture('', 'new-photo-01.jpeg', 768, 1024),
+        new Picture('', 'new-photo-02.jpeg', 1024, 768),
+        new Picture('', 'new-photo-03.jpeg', 768, 1024),
+        new Picture('', 'new-photo-04.jpeg', 1024, 968),
+        new Picture('', 'new-photo-05.jpeg', 960, 1280),
+        new Picture('', 'new-photo-06.jpeg', 1280, 960),
+        new Picture('', 'new-photo-07.jpeg', 1280, 960),
+        new Picture('', 'new-photo-08.jpeg', 1280, 960),
+        new Picture('', 'new-photo-09.jpeg', 960, 1280),
+        new Picture('', 'new-photo-10.jpeg', 960, 1280),
+        new Picture('', 'new-photo-11.jpeg', 960, 1280),
+        new Picture('', 'new-photo-12.jpeg', 960, 1280),
+        new Picture('', 'new-photo-13.jpeg', 1280, 960),
+        new Picture('', 'new-photo-14.jpeg', 960, 1280),
+        new Picture('', 'new-photo-15.jpeg', 1280, 960),
+
         new Picture('', 'polimento-03.jpeg', 1280, 959),
         new Picture('', 'polimento-04.jpeg', 1280, 959),
         new Picture('Serviços', 'servicos.jpeg', 778, 1280),
