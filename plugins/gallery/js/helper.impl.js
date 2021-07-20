@@ -76,7 +76,18 @@ $(() => {
         new Picture('Revitalização de Farol', 'revitalizacao-farol-02.jpg', 1280, 1280),
         new Picture('Revitalização de Farol', 'revitalizacao-farol-03.jpg', 436, 436),
         new Picture('Revitalização de Lanterna', 'revitalizacao-lanterna-01.jpg', 497, 497),
-        new Picture('Revitalização dos plásticos traseiros', 'revitalizacao-plasticos.jpg', 470, 470)
+        new Picture('Revitalização dos plásticos traseiros', 'revitalizacao-plasticos.jpg', 470, 470),
+
+        new Picture('Ford Fairlane 500', 'fairlane-1.jpeg', 1280, 853),
+        new Picture('Ford Fairlane 500', 'fairlane-2.jpeg', 1280, 853),
+        new Picture('Ford Fairlane 500', 'fairlane-3.jpeg', 1280, 853),
+        new Picture('Ford Fairlane 500', 'fairlane-4.jpeg', 1280, 960),
+        new Picture('Ford Fairlane 500', 'fairlane-5.jpeg', 1280, 853),
+        new Picture('Ford Fairlane 500', 'fairlane-6.jpeg', 1280, 853),
+        new Picture('Ford Fairlane 500', 'fairlane-7.jpeg', 1280, 960),
+        new Picture('Ford Fairlane 500', 'fairlane-8.jpeg', 1280, 960),
+        new Picture('Ford Fairlane 500', 'fairlane-9.jpeg', 1280, 1280),
+        new Picture('Ford Fairlane 500', 'fairlane-10.jpeg', 960, 1280),
     ]
 
     galleryContainer.html(parseToHtml(list));
