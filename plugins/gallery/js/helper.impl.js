@@ -86,7 +86,6 @@ $(() => {
         new Picture('', 'bmws.jpg', 551, 551),
         new Picture('Higienização Interna', 'higienizacao-01.jpg', 607, 607),
         new Picture('Higienização em estofados', 'higienizacao-02.jpg', 618, 618),
-        new Picture('Lavagem detalhada Ford - Depois', 'limpeza-06.jpg', 768, 1024),
         new Picture('', 'mitsu.jpg', 499, 499),
         new Picture('Polimento', 'polimento-01.jpg', 798, 798),
         new Picture('Polimento', 'polimento-02.jpg', 692, 692),
